@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="src/style.css" />
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://kit.fontawesome.com/370da7d06d.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=PT+Sans&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="weather-app">
+				<div class="current-date">
+					<h5 id="today-date">Tueday, June 30th</h5>
+				</div>
+
+				<form id="search-city">
+					<div class="row">
+						<div class="col-2">
+							<button id="current-location-button">
+								<i class="fas fa-map-marker-alt"></i>
+							</button>
+						</div>
+						<div class="col-6">
+							<input
+								type="text"
+								class="form-control"
+								placeholder="Enter city"
+								id="city-input"
+								autocomplete="off"
+							/>
+						</div>
+						<div class="col-3">
+							<input type="submit" class="form-control" value="Search" />
+						</div>
+					</div>
+				</form>
+
+				<h1>
+					<span class="current-city" id="show-city"></span>
+
+					<span class="current-temp" id="show-temperature">20</span>
+					<span class="units">
+						<a href="#" id="celsius-link">°C</a> |
+						<a href="#" id="farenheit-link">°F</a>
+					</span>
+					<span class="current-temp-icon">
+						<i class="fas fa-cloud-rain"></i>
+					</span>
+				</h1>
+
+				<div class="forecast"></div>
+				<div class="row">
+					<div class="col-3">
+						<div class="day1">
+							<h5 class="day">Wednesday</h5>
+							<i class="fas fa-cloud-rain"></i>
+							<p class="temp">15°C</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="day2">
+							<h5 class="day">Thursday</h5>
+							<i class="fas fa-cloud-sun"></i>
+							<p class="temp">17°C</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="day3">
+							<h5 class="day">Friday</h5>
+							<i class="fas fa-cloud-rain"></i>
+							<p class="temp">18°C</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="day4">
+							<h5 class="day">Saturday</h5>
+							<i class="fas fa-cloud-rain"></i>
+							<p class="temp">18°C</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="src/index.js"></script>
+	</body>
+</html>
