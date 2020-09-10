@@ -1,0 +1,117 @@
+.weather-app {
+	background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+
+	padding: 30px;
+	max-width: 800px;
+	height: 560px;
+	border: 1px solid;
+	border-color: #1cb1ac;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.current-date h5 {
+	padding: 2px;
+	font-size: 12px;
+	color: #1cb1ac;
+	font-weight: bolder;
+}
+
+button {
+	display: block;
+	background: #1cb1ac;
+	color: white;
+	font-size: 20px;
+	padding: 12px 20px 12px 20px;
+	border: none;
+
+	transition: all 200ms ease-in-out;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #42a5f5;
+}
+
+form {
+	font-size: 10px;
+	padding: 20px;
+	font-family: "Noto Sans", sans-serif;
+	margin-left: 100px;
+}
+
+h1 {
+	padding: 20px 20px 60px 20px;
+	text-align: center;
+}
+
+.current-city,
+.current-temp {
+	font-size: 70px;
+	padding: 10px;
+	font-family: "Noto Sans", sans-serif;
+	color: #1cb1ac;
+}
+
+.current-temp-icon {
+	font-size: 60px;
+	padding: 10px;
+	font-family: "Noto Sans", sans-serif;
+	color: #1cb1ac;
+}
+.units {
+	font-size: 15px;
+	position: relative;
+	top: -34px;
+}
+
+.days h3 {
+	left: 30px;
+	position: relative;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	color: #1cb1ac;
+	font-weight: thinner;
+}
+
+.forecast {
+	text-align: center;
+	color: #42a5f5;
+	position: fixed;
+	padding: 20px;
+}
+
+.day1,
+.day2,
+.day3,
+.day4 {
+	color: #42a5f5;
+	font-size: 30px;
+	text-align: center;
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 15px;
+	box-shadow: 8px 4px 8px;
+
+	font-family: "Montserrat", sans-serif;
+}
+
+.day1 h5,
+.day2 h5,
+.day3 h5,
+.day4 h5 {
+	font-size: 23px;
+	font-weight: lighter;
+	text-align: center;
+	color: #42a5f5;
+	font-family: "Montserrat", sans-serif;
+}
+.day1 i,
+.day2 i,
+.day3 i,
+.day4 i {
+	text-align: center;
+	font-size: 60px;
+	color: #42a5f5;
+}
