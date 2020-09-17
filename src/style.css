@@ -30,7 +30,7 @@ button {
 
 button:hover {
 	cursor: pointer;
-	color:#3e9fee;
+	background-color:#3e9fee;
 }
 
 form {
@@ -75,7 +75,7 @@ form {
 ul {
 	font-size: 15px;
 	list-style: none;
-	padding: 13px 10px 13px 11px;
+	padding: 30px 10px 13px 11px;
 	color: #1cb1ac;
 }
 
