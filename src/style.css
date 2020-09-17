@@ -30,7 +30,7 @@ button {
 
 button:hover {
 	cursor: pointer;
-	background-color: #42a5f5;
+	color:#3e9fee;
 }
 
 form {
@@ -103,10 +103,9 @@ ul {
 	font-size: 30px;
 	text-align: center;
 	border-width: 0.5px;
-	border-style: solid;
-	border-radius: 5px;
+	border-style: none;
+
 	padding: 15px;
-	box-shadow: 8px 4px 8px;
 
 	font-family: "Montserrat", sans-serif;
 }
@@ -129,3 +128,12 @@ ul {
 	font-size: 60px;
 	color: #42a5f5;
 }
+
+.day1:hover,
+.day2:hover,
+.day3:hover,
+.day4:hover {
+	cursor: pointer;
+	background-color: #3e9fee;
+	transition: all 150ms ease-in-out;
+background-image: linear-gradient(-225deg, #fffeff 0%, #adf5f4 100%);
