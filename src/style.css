@@ -35,27 +35,34 @@ button:hover {
 
 form {
 	font-size: 10px;
-	padding: 20px;
-	font-family: "Noto Sans", sans-serif;
-	margin-left: 100px;
-}
-
-h1 {
-	padding: 20px 20px 60px 20px;
-	text-align: center;
-}
-
-.current-city,
-.current-temp {
-	font-size: 70px;
 	padding: 10px;
+	font-family: "Noto Sans", sans-serif;
+	margin-left: 60px;
+}
+
+.weather-summary {
+	text-align: left;
+	font-size: 50px;
+	padding: 20px 25px 40px 20px;
+}
+
+.current-city {
+	font-size: 65px;
+
+	font-family: "Noto Sans", sans-serif;
+	color: #1cb1ac;
+}
+
+.current-temp {
+	font-size: 65px;
+
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
 
 .current-temp-icon {
 	font-size: 60px;
-	padding: 10px;
+	padding: 20px;
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
@@ -63,6 +70,13 @@ h1 {
 	font-size: 15px;
 	position: relative;
 	top: -34px;
+	color: #1cb1ac;
+}
+
+ul {
+	font-size: 10px;
+	list-style: none;
+	padding: 20px 0px 15px 50px;
 }
 
 .days h3 {
