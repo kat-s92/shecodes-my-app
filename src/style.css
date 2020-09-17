@@ -43,7 +43,7 @@ form {
 .weather-summary {
 	text-align: left;
 	font-size: 50px;
-	padding: 20px 25px 40px 20px;
+	padding: 25px 25px 40px 45px;
 }
 
 .current-city {
@@ -55,14 +55,13 @@ form {
 
 .current-temp {
 	font-size: 65px;
-
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
 
 .current-temp-icon {
 	font-size: 60px;
-	padding: 20px;
+	padding: 10px 11px 10px 30px;
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
@@ -74,9 +73,10 @@ form {
 }
 
 ul {
-	font-size: 10px;
+	font-size: 15px;
 	list-style: none;
-	padding: 20px 0px 15px 50px;
+	padding: 13px 10px 13px 11px;
+	color: #1cb1ac;
 }
 
 .days h3 {
