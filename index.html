@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Weather</title>
 		<link rel="stylesheet" href="src/style.css" />
 
 		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -60,18 +60,27 @@
 					</div>
 				</form>
 
-				<h1>
-					<span class="current-city" id="show-city"></span>
-
-					<span class="current-temp" id="show-temperature">20</span>
-					<span class="units">
-						<a href="#" id="celsius-link">°C</a> |
-						<a href="#" id="farenheit-link">°F</a>
-					</span>
-					<span class="current-temp-icon">
-						<i class="fas fa-cloud-rain"></i>
-					</span>
-				</h1>
+				<div class="weather-summary">
+					<div class="row">
+						<div class="col-9">
+							<span class="current-city" id="show-city"></span>
+							<span class="current-temp" id="show-temperature">20</span>
+							<span class="units">
+								<a href="#" id="celsius-link">°C</a> |
+								<a href="#" id="farenheit-link">°F</a>
+							</span>
+							<span class="current-temp-icon">
+								<i class="fas fa-cloud-rain"></i>
+							</span>
+						</div>
+						<div class="col-3">
+							<ul>
+								<li>Humidity: <span id="humidity"> %</span></li>
+								<li>Precipitation:<span id="precipitation"> %</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
 				<div class="forecast"></div>
 				<div class="row">
