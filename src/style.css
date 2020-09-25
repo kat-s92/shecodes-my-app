@@ -47,25 +47,26 @@ form {
 }
 
 .current-city {
-	font-size: 60px;
+	font-size: 50px;
 
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
 
 .current-temp {
-	font-size: 65px;
+	font-size: 60px;
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 	padding:10px;
 }
 
-.current-temp-icon {
+.icon {
 	font-size: 60px;
 	padding: 10px 0px 10px 30px;
 	font-family: "Noto Sans", sans-serif;
 	color: #1cb1ac;
 }
+
 .units {
 	font-size: 12px;
 	position: relative;
