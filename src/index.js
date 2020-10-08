@@ -78,11 +78,14 @@ function showWeather(response) {
 }
 
 function displayForecast(response) {
-	let forecast = response.data.list[0];
 	let forecastElement = document.querySelector("#forecast");
-	console.log(forecast);
+	let forecast = null;
+	forecastElement.innerHTML = null;
 
-	forecastElement.innerHTML = `
+	for (let index = 0; index < 4; index++) {
+		forecast = response.data.list[index];
+
+		forecastElement.innerHTML += `
 	<div class="col-3">
 	<div class="time-slot">
 						
@@ -92,6 +95,7 @@ function displayForecast(response) {
 								}@2x.png"/img>
 								<div class="forecast-temp">${Math.round(forecast.main.temp_max)}°</div>
 							</div>`;
+	}
 }
 
 function searchCity(city) {
