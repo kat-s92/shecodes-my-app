@@ -42,7 +42,7 @@ form {
 .weather-summary {
 	text-align: left;
 	font-size: 30px;
-	padding: 30px 20px 30px 40px;
+	padding: 17px 72px 30px 83px;
 }
 
 .current-city {
@@ -59,7 +59,7 @@ form {
 	padding: 10px;
 }
 .current-temp-icon {
-	padding: 5px 0px 10px 30px;
+	padding: 0px 0px 20px 5px;
 }
 
 .units {
