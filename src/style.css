@@ -1,8 +1,6 @@
 .weather-app {
 	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 	height: 500px;
-	border: 1px solid;
-	border-color: darkblue;
 	border-radius: 10px;
 	margin: 20px 10px 10px 2px;
 	max-width: 800px;
